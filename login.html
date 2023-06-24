@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>
+        Log in
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="title">LogIn</div>
+        <div class="content">
+            <form action="login.php" method="post">
+                <div class="userDetails">
+
+                    <div class="input-box">
+                        <span class="details">Email-ID</span>
+                        <input type="email" name="email" placeholder="Enter your Email" required id="email">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" name="password" placeholder="Enter your Password" required id="password">
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Login" id="Login"/>
+                </div>
+                <br>
+                <p style="">
+                    Need an account?
+                    <a href="index.html">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

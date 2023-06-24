@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>
+        Sign up
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Sign up </div>
+        <div class="content">
+            <form action="signup.php" method="post">
+                <div class="userDetails">
+                    <div class="input-box">
+                        <span class="details">UserName</span>
+                        <input type="text" name="username" placeholder="Enter Username" required id="inputName">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email-ID</span>
+                        <input type="email" name="email" placeholder="Enter your Email" required id="inputEmail">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" name="password" placeholder="Enter your Password" required id="inputPassword">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="password" name="confirmPassword" placeholder="Confirm your Password" required id="inputCPassword">
+                    </div>
+                </div>
+                
+                <div class="button">
+                  
+                    <input type="submit" value="Sign in" id="SignIn" >
+                </div>
+                    
+                <br>
+                <p style="">
+                    Already have account?
+                    <a href="login.html">log in</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
